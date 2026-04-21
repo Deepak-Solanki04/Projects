@@ -1,27 +1,22 @@
-# Projects
+#  Prompt Quality Evaluator
 
-This repository contains mini projects developed using Python that focus on practical applications of programming concepts.
+A Python-based tool to evaluate the quality of prompts given to Large Language Models (LLMs).
 
-## Objective
-- Apply theoretical knowledge to real-world style problems
-- Improve logical thinking and program structure
-- Gain hands-on experience with file handling and user interaction
+##  What it evaluates
+- **Clarity** – Detects vague or ambiguous language
+- **Specificity** – Checks prompt length and detail level
+- **Context** – Looks for instructional keywords
+- **Tone** – Analyzes subjectivity and neutrality
 
-## Planned Projects
-- Student Management System
-- Library Management System
-- File-Based Applications
-- Console-Based Utility Programs
+##  How to Run
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-## Concepts Used
-- File Handling
-- Functions and Modular Programming
-- Data Structures
-- Input/Output Handling
-- Menu Driven Programs
+##  Tech Stack
+- Python, Streamlit, TextBlob, NLTK
 
-## Language Used
-- Python
-
-## Status
-Projects are being actively developed and updated.
+##  Use Case
+Useful in LLM post-training pipelines to filter and score human-written prompts
+before using them as training data.
