@@ -1,6 +1,6 @@
-# Mini Projects in C++
+# Projects
 
-This repository contains mini projects developed using C++ that focus on practical applications of programming concepts.
+This repository contains mini projects developed using Python that focus on practical applications of programming concepts.
 
 ## Objective
 - Apply theoretical knowledge to real-world style problems
@@ -21,7 +21,7 @@ This repository contains mini projects developed using C++ that focus on practic
 - Menu Driven Programs
 
 ## Language Used
-- C++
+- Python
 
 ## Status
 Projects are being actively developed and updated.
